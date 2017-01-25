@@ -1,1 +1,26 @@
 I boka The Big Switch: Rewiring the World, from Edison to Google fra 2008 hevdet Nicholas Carr at dataindustrien var inne i en tilsvarende transformasjom som ved etablering av strømnettet for 100 år siden. Tilgangen på ren datakraft i nettskyen er nå en realitet. #Serverless applikasjoner kjører som rene tjenester eller funksjoner i nettskyen, frikoblet fra servere og annen infrastruktur. Fravær av infrastruktur betyr #NoOps; at basisdriften elimineres. Dataindustrien går bananas! Og det med god grunn!
+
+Serverless... funksjoner som ikke har et forhold til serveren eller annen basis infrastruktur.
+Managed services - driftede skytjenester
+FaaS
+BaaS
+Fowler-artikkelen
+Lambda
+
+Wardley - recovering management consultant - fra oppfinnelse til industristandard - map
+Disruptive - på mange plan
+10-15 år
+
+Skatteberegning
+Skatt i Google Cloud
+Datainn
+
+NoOps - LessOps, DifferentOps
+DevOps-gjengen skjelver i buksene
+
+Noen spådommer, muligheter
+* Serverless er kun mulig i nettskyen.
+* Store selskaper vil lage sine egne serverless-plattformer
+* DevOps-folka vil tviholde på sin investerte kompetanse
+* Serverless tar over verden
+* Amazon tar over verden
