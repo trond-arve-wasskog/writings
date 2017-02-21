@@ -33,7 +33,12 @@ Et annet illustrerende eksempel er fra [Datainn](https://open.bekk.no/trafikkmel
 Kjennetegnene for driftede skytjenester er at man ikke forholder seg til infrastrukturen, at tilgjengelighet og skalering håndteres sømløst av skyplattformen, og man betaler for faktisk bruk. I lys av dette er Amazon Elasticsearch Service en umoden skytjeneste. _Platform-as-a-Service_-varianter som [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) og [Azure App Service](https://azure.microsoft.com/nb-no/services/app-service/) når heller ikke helt opp i denne kategorien ettersom man må forholde seg til infrastruktur som CPU og minne. Tilsvarende gjelder for [Google Container Engine (Kubernetes)](https://cloud.google.com/container-engine/) og [Heroku](https://www.heroku.com/). PaaS og CaaS kan enorm verdi og være bra valg i mange tilfeller, men er ikke ekte _serverless_-plattformer.
 
 ## Mørke skyer på _serverless_-himmelen?
-TODO: Utvikling, debugging, innsyn, migrering osv. Generelt eller for FaaS?
+Det er flere innvendinger mot _serverless_, blant andre:
+* **_Serverless_ er umodent**. Dette er åpenbart riktig, spesielt for FaaS-plattformer som AWS Lambda. Driftede skytjenester som AWS S3 og Google BigQuery har på den andre siden lang fartstid. Men vær uansett klar for rivende utvikling på området i tiden framover.
+* **_Serverless_ låser deg til en proprietær plattform**. Dette varierer fra tjeneste til tjeneste. Eksemplet med [skatteberegninger](https://open.bekk.no/jakten-pa-fem-tusen-skatteberegninger-i-sekundet) viser hvor viktig det er å holde forretningslogikken fri for infrastruktur. Med et fåtall kodelinjer kunne den eksisterende Java-applikasjonen kjøres i AWS Lambda. Men det er uansett smart å ha en plan for migrering til en alternativ plattform, enten det gjelder prosessering eller flytting av data.
+* **_Serverless_ gjør utvikling og debugging vanskelig**. Igjen vil dette variere fra tjeneste til tjeneste. Utviklere foretrekker å arbeide på egen datamaskin; manglende innsyn og verktøy i utviklings-, test- og produksjonsmiljøer gjør utvikling og feilsøking  vesentlig vanskeligere. Regn derfor med at utviklingsarkitekturen, verktøystøtten og logging/overvåkning for _serverless_-plattformene vil være førsteprioritet for skyleverandørene. TODO Eks AWS Lambda
+* **_Serverless_ gir dårlige forutsigbarhet med tanke på ytelse og andre kvalitetskrav**. TODO
+* **_Serverless_ gjør at vi mister kontroll på infrastrukturen**. Ja. På samme måte som sagbrukene måtte pensjonere [oppgangssaga](https://no.wikipedia.org/wiki/Oppgangssag) til fordel for elektrisk kraft, vil vi måtte gi slipp på infrastrukturen.
 
 # NoOps, LessOps, DifferentOps, DevOps?
 
