@@ -41,6 +41,11 @@ Det er flere innvendinger mot _serverless_, blant andre:
 * **_Serverless_ gjør at vi mister kontroll på infrastrukturen**. Ja. På samme måte som sagbrukene måtte pensjonere [oppgangssaga](https://no.wikipedia.org/wiki/Oppgangssag) til fordel for elektrisk kraft, vil vi måtte gi slipp på infrastrukturen.
 
 # NoOps, LessOps, DifferentOps, DevOps?
+En ren _serverless_-løsning har ikke noe direkte forhold til infrastruktur som maskinvare, operativsystemer, nettverkskonfigurasjon, minne eller CPU. Dette har avfødt _NoOps_-begrepet; _når det ikke lenger er noe å drifte, trenger man heller ikke drift_. Dette er helt korrekt for infrastrukturen; basisdrift som å restarte servere, oppgradering av servere og nettverksutstyr og i det hele tatt holde den fysiske infrastrukturen i live er ikke lenger nødvendig. Mer presist; dette håndtere nettskyleverandøren slik at brukere av _serverless_-plattformen heller må forholde seg til APIer og SLAer.
+
+Imidlertid må man fortsatt ha et forhold til utvikling, test, release og utrulling. Applikasjonen må overvåkes, feil må logges, analyseres og rettes. Den snart tre år gamle [modenhetsmodellen for kontinuerlig leveranse](https://open.bekk.no/a-maturity-model-for-continuous-delivery) har kun enkelte infrastruktur-spesifikke poenger, som _Infrastructure as code_ (der intensjonen forøvrig er like gyldig for _serverless_; at man skal ha full koll på kjøretidsarkitekturen sin). Mange i DevOps-miljøet har reagert kraftig på NoOps-begrepet.
+
+
 
 NoOps - LessOps, DifferentOps
 DevOps-gjengen skjelver i buksene
