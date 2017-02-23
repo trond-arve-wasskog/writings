@@ -37,7 +37,7 @@ Det er flere innvendinger mot _serverless_, blant andre:
 * **_Serverless_ er umodent**. Dette er åpenbart riktig, spesielt for FaaS-plattformer som AWS Lambda. Driftede skytjenester som AWS S3 og Google BigQuery har på den andre siden lang fartstid. Men vær uansett klar for rivende utvikling på området i tiden framover.
 * **_Serverless_ låser deg til en proprietær plattform**. Dette varierer fra tjeneste til tjeneste. Eksemplet med [skatteberegninger](https://open.bekk.no/jakten-pa-fem-tusen-skatteberegninger-i-sekundet) viser hvor viktig det er å holde forretningslogikken fri for infrastruktur. Med et fåtall kodelinjer kunne den eksisterende Java-applikasjonen kjøres i AWS Lambda. Men det er uansett smart å ha en plan for migrering til en alternativ plattform, enten det gjelder prosessering eller flytting av data.
 * **_Serverless_ gjør utvikling og debugging vanskelig**. Igjen vil dette variere fra tjeneste til tjeneste. Utviklere foretrekker å arbeide på egen datamaskin; manglende innsyn og verktøy i utviklings-, test- og produksjonsmiljøer gjør utvikling og feilsøking  vesentlig vanskeligere. Regn derfor med at utviklingsarkitekturen, verktøystøtten og logging/overvåkning for _serverless_-plattformene vil være førsteprioritet for skyleverandørene. TODO Eks AWS Lambda
-* **_Serverless_ gir dårlige forutsigbarhet med tanke på ytelse og andre kvalitetskrav**. TODO
+* **_Serverless_ gir dårlig forutsigbarhet på ytelse og andre kvalitetskrav**. TODO
 * **_Serverless_ gjør at vi mister kontroll på infrastrukturen**. Ja. På samme måte som sagbrukene måtte pensjonere [oppgangssaga](https://no.wikipedia.org/wiki/Oppgangssag) til fordel for elektrisk kraft, vil vi måtte gi slipp på infrastrukturen.
 
 # NoOps, LessOps, DifferentOps, DevOps
