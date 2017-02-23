@@ -1,4 +1,4 @@
-I boka [The Big Switch: Rewiring the World, from Edison to Google](http://www.computerworld.com/article/2534133/infrastructure-management/q-a--nicholas-carr-on--the-big-switch--to-cloud-computing.html) fra 2008 hevdet Nicholas Carr at dataindustrien var inne i en tilsvarende transformasjom som ved etablering av strømnettet for 100 år siden, da industrien faset ut egen energiproduksjon til fordel for elektrisk kraft fra nettet. Mer en ti år etter at AWS lanserte EC2 og S3 som Infrastructure-as-a-Service, er tilgangen på ekte datakraft nå en realitet. _#Serverless_ tjenester i nettskyen er frikoblet fra servere og infrastruktur. Når man ikke lenger forholder seg til infrastruktur elimineres den tradisjonelle basisdriften; _#NoOps_. Dataindustrien går igjen bananas! Og det med god grunn!
+I boka [The Big Switch: Rewiring the World, from Edison to Google](http://www.computerworld.com/article/2534133/infrastructure-management/q-a--nicholas-carr-on--the-big-switch--to-cloud-computing.html) fra 2008 hevdet Nicholas Carr at dataindustrien var inne i en tilsvarende transformasjom som ved etablering av strømnettet for 100 år siden, da industrien faset ut egen energiproduksjon til fordel for elektrisk kraft fra nettet. Mer enn ti år etter at AWS lanserte EC2 og S3 som Infrastructure-as-a-Service, er tilgangen på ekte datakraft nå en realitet. _#Serverless_ tjenester i nettskyen er frikoblet fra servere og infrastruktur. Når man ikke lenger forholder seg til infrastruktur elimineres den tradisjonelle basisdriften; _#NoOps_. Dataindustrien går igjen bananas! Og det med god grunn!
 
 # Serverless?
 Aller først, to kjernepunkter:
@@ -48,12 +48,14 @@ En ren _serverless_-løsning har ikke noe direkte forhold til infrastruktur som 
 NoOps understreker at det er på tide å slutte med basisdrift av egen infrastruktur og heller ta i bruk driftede skytjenester eller _serverless_-plattformer. Men applikasjonsdrift, overvåkning, kvalitetskontroll og feilretting vil ikke forsvinne. Noen bruker derfor heller begrepene _DifferentOps_ eller _LessOps_. DevOps-miljøet burde faktisk omfavne _serverless_-bevegelsen fordi den gjør at DevOps-målsetningene kan nås mye raskere og enklere.
 
 # En titt i krystallkula
-Noen spådommer, muligheter
-Wardley - recovering management consultant - fra oppfinnelse til industristandard - map
-Disruptive - på mange plan
-10-15 år
-* Serverless er kun mulig i nettskyen.
-* Store selskaper vil lage sine egne serverless-plattformer
-* DevOps-folka vil tviholde på sin investerte kompetanse
-* Serverless tar over verden
-* Amazon tar over verden
+En person som er ubetinget skeptisk til å spekulere innenfor områder som brukernes faktiske behov og framtidig gjenbruk ved utvikling av programvare, burde sannsynligvis holde seg for god til å spå om framtida. Allikevel har jeg en sterk magefølelse for at _serverless_ og driftede skytjenester kommer til å dominere vår industri. Min favorittstrategikonsulent [Simon Wardley](https://twitter.com/swardley/status/799420770875277313) - han beskriver seg selv som en _recovering management consultant_ - bruker kart for å forstå historien, navigere samtiden og ta beslutninger om framtiden. I [Why the fuss about serverless?](https://hackernoon.com/why-the-fuss-about-serverless-4370b1596da0#.5acl5oj64) beskriver han overgangen fra 90-tallets monolitter på egen infrastruktur, via datakraft i nettskyen og mikrotjenester til funksjonsplattformer som AWS Lambda. Kjernen i artikkelen er at etterhvert som _serverless_-paradigmet uungåelig utvikler seg fra oppfinnelse til industrialisert produkt, vil man bli i stand til å _overvåke både kost og inntekt per funksjon_. Digitaliserte virksomheter som utnytter denne egenskapen vil være i en egen divisjon med tanke på å maksimere inntekt og minimalisere kostnader. Slike prosesser tar vanligvis 10-15 år ifølge Wardley (og minner om at AWS lanserte EC2 i 2006), så om kartet stemmer med terrenget vil _serverless_ være dominerende rundt 2025. 
+
+_Serverless_ representerer overgangen til å konsumere ekte datakraft i nettskyen. Forvent at det skjer mye på dette området i månedene og årene framover, og ikke vent til 2025 med å skrote møllehjulet! Her er noen artikler og ressurser som setter deg på rett spor:
+* [Debunking Serverless Myths](https://read.acloud.guru/debunking-serverless-myths-cc329460d061#.83pe5gcs1) - Peter Sbarski (A Cloud Guru)
+* [Managed services killed DevOps](https://techcrunch.com/2016/04/07/devops-is-dead-long-live-devops/)
+* [Disruptive Serverless](https://medium.com/@PaulDJohnston/disruptive-serverless-ddb417ebdd15#.uly0g4htd)
+* [Evolution of Business Logic from Monoliths through Microservices, to Functions](https://read.acloud.guru/evolution-of-business-logic-from-monoliths-through-microservices-to-functions-ff464b95a44d#.fi743u6lv) - Adrian Cockcroft ([tilhørende video fra microXchg 2017]( https://www.youtube.com/watch?v=ZgxZCXouBkY)).* [Amazon is eating the software (which is eating the world)](https://hackernoon.com/amazon-is-eating-the-software-which-is-eating-the-world-738888fb9e82#.ofreimnvj) - Simon Wardley
+* [Serverless Architectures on AWS](https://www.manning.com/books/serverless-architectures-on-aws?a_aid=serverless-architectures-on-aws&a_bid=145280de) - Bok av Peter Sbarski (A Cloud Guru)
+* [Serverless Technologies & Architectures](https://github.com/ServerlessHeroes/serverless-resources)
+* [https://www.meetup.com/Serverless-Oslo/](Serverless Oslo) - Meetup
+* [Serverlessconf](http://serverlessconf.io/) - Serverless-konferanser i London, New York, Tokya og Austin
