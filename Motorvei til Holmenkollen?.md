@@ -30,7 +30,7 @@ Metaforen om motorvei til Holmenkollen bør uansett gravlegges for alle framtidi
 * <sup>5</sup> [_Ekte datakraft i nettskyen #serverless #noops_ - Trond Arve Wasskog, Bekk Open](http://open.bekk.no/ekte-datakraft-i-nettskyen-serverless-noops)
 * <sup>6</sup> [_Tre grunner til å satse på statlige digitale plattformer_ - Lars Peder Brekk, Computerworld 05.04 2017](http://www.cw.no/artikkel/hva-andre-mener/hva-andre-mener-tre-grunner-til-satse-pa-statlige-digitale-plattformer)
 * <sup>7</sup> ...alternativt tilsvarende nettskyplattformer i Google Cloud Platform eller Microsoft Azure.
-* <sup>8</sup> [_Gjenbruk - en kontinuerlig skuffelse siden 1968_ - Tore Engvig, Bekk Open]
+* <sup>8</sup> [_Gjenbruk - en kontinuerlig skuffelse siden 1968_ - Tore Engvig, Bekk Open](http://open.bekk.no/gjenbruk-en-kontinuerlig-skuffelse-siden-1968)
 * <sup>9</sup> [_Alle vil til himmelen men ingen vil dø_ - Trond Arve Wasskog, Bekk Open](http://open.bekk.no/maskinvare-blir-mjukvare)
 * <sup>10</sup> [_Frokostmøte om allmenne skyplattformer i offentlig sektor_ - Teknologihuset, Onsdag 26.04.2017](https://www.facebook.com/events/418313545193050/418313555193049/?notif_t=like&notif_id=1490950407330936)
 
